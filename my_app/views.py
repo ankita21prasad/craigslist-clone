@@ -8,7 +8,7 @@ BASE_CRAIGSLIST_URL = 'https://hyderabad.craigslist.org/search/?query={}'
 BASE_IMAGE_URL = 'https://images.craigslist.org/'
 
 def home(request):
-    return render(request, 'base.html')
+    return render(request, 'index.html')
 
 
 def new_search(request):
